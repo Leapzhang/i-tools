@@ -149,7 +149,7 @@ export default function AlipanTvToken() {
   }, [hasGenerated]);  return (
     <>
       <Head>
-        <title>阿里云盘TV授权 - 爱拓工具箱</title>
+        <title>阿里云盘TV授权 - Leap工具箱</title>
       </Head>
       
       <Space direction="vertical" size="large" style={{ width: "100%" }}>
