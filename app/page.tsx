@@ -143,7 +143,7 @@ export default function HomePage() {
             backgroundClip: "text"
           }}
         >
-          🛠️ 爱拓工具箱
+          🛠️ Leap工具箱
         </Title>
         <Text 
           style={{ 
