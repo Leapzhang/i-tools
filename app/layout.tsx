@@ -80,6 +80,18 @@ export default function RootLayout({
                           <HomeOutlined />
                           <span>首页</span>
                         </Space>
+                      </Link>                      <Link 
+                        href="https://github.com/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="nav-link"
+                      >
+                        <Space>
+                          <GithubOutlined />
+                          <span>GitHub</span>
+                        </Space>
+                      </Link>
+                    </Space>
                   </div>
                 </Header>
                   <Content style={{ padding: '32px 24px', flex: 1 }}>
