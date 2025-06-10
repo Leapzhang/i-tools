@@ -1,0 +1,14 @@
+branch:
+  # 如下按钮在分支名以 release 开头的分支详情页面显示
+  - reg: "^main"
+    buttons:
+      - name: 构建
+        # 如存在，则将作为流水线 title，否则流水线使用默认 title
+        description: 构建docker镜像
+        event: web_trigger # 触发的 CI 事件名
+        # 权限控制，不配置则有仓库写权限的用户可触发构建
+        # 如果配置，则需要有仓库写权限，并且满足 roles 或 users 其中之一才有权限触发构建
+        permissions:
+          # roles 和 users 配置其中之一或都配置均可，二者满足其一即可
+          roles:
+            - owner

@@ -1,0 +1,4 @@
+include:
+  - https://cnb.cool/ilay1678/templates/-/blob/main/ci/docker.cnb.yml
+  - https://cnb.cool/ilay1678/templates/-/blob/main/ci/docker.ghcr.yml
+  - https://cnb.cool/ilay1678/templates/-/blob/main/ci/sync_to_github.yml
