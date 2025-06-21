@@ -143,7 +143,7 @@ export default function HomePage() {
             backgroundClip: "text"
           }}
         >
-          🛠️ 爱拓工具箱
+          🛠️ Leap工具箱
         </Title>
         <Text 
           style={{ 
@@ -423,10 +423,6 @@ export default function HomePage() {
         <Title level={4} style={{ color: "#4b5563", marginBottom: 12 }}>
           💡 更多工具正在开发中
         </Title>
-        <Text style={{ color: "#6b7280", fontSize: "14px" }}>
-          我们持续为您带来更多实用工具，让您的工作和生活更加便捷。
-          如果您有好的建议或需求，欢迎联系我们。
-        </Text>
       </Card>
     </div>
   );
