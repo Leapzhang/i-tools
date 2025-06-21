@@ -55,10 +55,10 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
-        <title>爱拓工具箱 - 在线工具集合</title>
-        <meta name="description" content="爱拓工具箱提供各种实用的在线工具，包括二维码生成、阿里云盘TV Token获取、挪车码牌生成等。" />
+        <title>Leap工具箱 - 在线工具集合</title>
+        <meta name="description" content="Leap工具箱提供各种实用的在线工具，包括二维码生成、阿里云盘TV Token获取、挪车码牌生成等。" />
         <meta name="keywords" content="在线工具,二维码生成器,阿里云盘,挪车码牌,工具箱" />
-        <meta name="author" content="爱拓工具箱" />
+        <meta name="author" content="Leap工具箱" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
@@ -71,7 +71,7 @@ export default function RootLayout({
                   <div className="site-header-content">                    <Link href="/" className="logo-link">
                       <Space size="middle">
                         <ToolOutlined className="logo-icon" />
-                        <span className="gradient-text">爱拓工具箱</span>
+                        <span className="gradient-text">Leap工具箱</span>
                       </Space>
                     </Link>
                     
@@ -80,17 +80,6 @@ export default function RootLayout({
                           <HomeOutlined />
                           <span>首页</span>
                         </Space>
-                      </Link>                      <Link 
-                        href="https://github.com/iLay1678/i-tools" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="nav-link"
-                      >
-                        <Space>
-                          <GithubOutlined />
-                          <span>GitHub</span>
-                        </Space>
-                      </Link>
                     </Space>
                   </div>
                 </Header>
@@ -109,7 +98,7 @@ export default function RootLayout({
                     <Space>
                       <HeartOutlined className="footer-icon" />
                       <Text className="footer-text">
-                        © {new Date().getFullYear()} 爱拓工具箱 - 让工具更简单，让生活更高效
+                        © Leap工具箱
                       </Text>
                     </Space>
                   </Space>
